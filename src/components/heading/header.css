@@ -5,7 +5,6 @@
     margin-top: 10px;
     /* border-bottom: 2px solid black; */
     box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.3);
-
 }
 .header .auth {
     display: flex;
@@ -14,6 +13,7 @@
 }
 .header .web-name {
     padding-top: 50px;
+    padding-bottom: 20px;
     cursor: pointer;
     color: rgba(69, 86, 103, 0.775);
 }
@@ -31,12 +31,15 @@
 }
 .header .auth {
     cursor: pointer;
+    margin-top: -40px;
 }
 .header .auth i {
-    margin-right: 15px;
-    font-size: 25px;
+    margin-right: 10px;
+    font-size: 28px;
     color: rgb(112, 209, 47);
 }
 .header .auth h4 {
+    font-size: 13px;
+    font-weight: 100;
     color: rgb(112, 209, 47);
 }

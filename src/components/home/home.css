@@ -1,0 +1,25 @@
+.home {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* column-gap: 10px; */
+}
+.home ul {
+    list-style-type: none;
+    padding: 20px;
+    direction: rtl;
+    text-align: right;
+
+}
+.home ul li {
+    margin-bottom: 1.5rem;
+    color: rgba(69, 86, 103, 0.775);
+    font-size: 25px;
+}
+.images {
+    display: grid;
+    grid-template-columns: 100px 100px; 
+    margin-right: 20rem;
+}
+
+
