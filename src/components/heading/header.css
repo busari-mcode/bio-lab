@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header .auth {
+    display: flex;
+    justify-content: center;
+}
+.header .web-name h1 {
+    font-size: 50px;
+}
+.header .auth i {
+    margin-right: 2px;
+}
