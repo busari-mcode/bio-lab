@@ -17,11 +17,19 @@ const Home = () => {
                 <li>equipment booking</li>
             </ul>
             <div className="images">
-                <img src="../../images/3-d.avif" alt="" />
-                <img src="../../images/microfludics.avif" alt="" />
+                <div className="cord">
+                    <img src="../../images/3-d.avif" alt="" />
+                </div>
+                <div className="microfludics">
+                    <img src="../../images/microfludics.avif" alt="" />
+                </div>
                 <div className="set3">
-                    <img src="../../images/target-sample.avif" alt="" />
-                    <img src="../../images/imaging.gif" alt="" />
+                    <div className="target-sample">
+                        <img src="../../images/target-sample.avif" alt="" />
+                    </div>
+                    <div className="imaging">
+                        <img src="../../images/imaging.gif" alt="" />
+                    </div>
                 </div>
                 <div className="live-cells">
                     <img src="../../images/live-cells-trapping.gif" alt="" />

@@ -9,7 +9,8 @@
     padding: 20px;
     direction: rtl;
     text-align: right;
-
+    cursor: pointer;
+    margin-right: -25rem;
 }
 .home ul li {
     margin-bottom: 1.5rem;
@@ -20,6 +21,8 @@
     display: grid;
     grid-template-columns: 100px 100px; 
     margin-right: 20rem;
+    width: 25%;
 }
-
-
+.images .cord {
+    
+}
