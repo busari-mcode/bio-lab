@@ -18,11 +18,33 @@
     font-size: 25px;
 }
 .images {
+    padding-top: 20px;
     display: grid;
-    grid-template-columns: 100px 100px; 
+    grid-template-columns: 50px 50px; 
+    row-gap: 20px;
+    column-gap: 20rem;
     margin-right: 20rem;
     width: 25%;
 }
-.images .cord {
-    
+.images .cord img {
+    width: 20rem;
+    height: 7rem;
+}
+.images .microfludics img {
+    width: 10rem;
+    height: 7rem;
+}
+.images .target-sample img {
+    width: 10rem;
+    height: 7rem;
+    margin-bottom: 30px;
+}
+.images .imaging img {
+    width: 10rem;
+    height: 7rem;
+}
+.live-cells img {
+    /* width: 10rem; */
+    height: 17rem;
+    margin-left: -10rem;
 }
