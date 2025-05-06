@@ -1,20 +1,21 @@
 import React from 'react'
 import './home.css'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 
 const Home = () => {
   return (
     <>
         <section className="home">
             <ul>
-                <li>home</li>
-                <li>people</li>
-                <li>publications</li>
-                <li>lab pictures</li>
-                <li>join</li>
-                <li>animations</li>
-                <li>teaching (just the fun stuff)</li>
-                <li>University of Idaho - PHYS411</li>
-                <li>equipment booking</li>
+                <li><Link to="/">home</Link></li>
+                <li><Link to="/people">people</Link></li>
+                <li><Link to="/publications">publications</Link></li>
+                <li><Link to="/labpics">lab pictures</Link></li>
+                <li><Link to="/join">join</Link></li>
+                <li><Link to="/animations">animations</Link></li>
+                <li><Link to="/teaching">teaching (just the fun stuff)</Link></li>
+                <li><Link to="/phys">University of Idaho - PHYS411</Link></li>
+                <li><Link to="/equipbook">equipment booking</Link></li>
             </ul>
             <div className="images">
                 <div className="cord">

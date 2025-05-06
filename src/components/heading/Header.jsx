@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 
 const Header = () => {
   return (
@@ -7,10 +8,12 @@ const Header = () => {
         <section className="header">
             <div className="web-name">
                 <div className="logo">
-                    <h2>2</h2>
-                    <h1>bio lab</h1>
+                    <Link to="/">
+                        <h2>2</h2>
+                        <h1>bio lab</h1>
+                    </Link>
                 </div>
-                <h3>biophysics and bioimaging @ UI</h3>
+                <h3><Link to="/">biophysics and bioimaging @ UI</Link></h3>
             </div>
             <div className="auth">
                 <i class="fa-solid fa-circle-user"></i>
