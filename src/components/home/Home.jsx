@@ -7,15 +7,15 @@ const Home = () => {
     <>
         <section className="home">
             <ul>
-                <li><Link to="/">home</Link></li>
-                <li><Link to="/people">people</Link></li>
-                <li><Link to="/publications">publications</Link></li>
-                <li><Link to="/labpics">lab pictures</Link></li>
-                <li><Link to="/join">join</Link></li>
-                <li><Link to="/animations">animations</Link></li>
-                <li><Link to="/teaching">teaching (just the fun stuff)</Link></li>
-                <li><Link to="/phys">University of Idaho - PHYS411</Link></li>
-                <li><Link to="/equipbook">equipment booking</Link></li>
+                <li><Link to="/" className='page'>home</Link></li>
+                <li><Link to="/people" className='people'>people</Link></li>
+                <li><Link to="/publications" className='publications'>publications</Link></li>
+                <li><Link to="/labpics" className='labpics'>lab pictures</Link></li>
+                <li><Link to="/join" className='join'>join</Link></li>
+                <li><Link to="/animations" className='animations'>animations</Link></li>
+                <li><Link to="/teaching" className='teaching'>teaching (just the fun stuff)</Link></li>
+                <li><Link to="/phys" className='phys'>University of Idaho - PHYS411</Link></li>
+                <li><Link to="/equipbook" className='equipbook'>equipment booking</Link></li>
             </ul>
             <div className="images">
                 <div className="cord">

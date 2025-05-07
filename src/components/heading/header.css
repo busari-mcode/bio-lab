@@ -18,7 +18,8 @@
     color: rgba(69, 86, 103, 0.775);
 }
 .header .web-name h1 {
-    font-size: 70px;    
+    font-size: 70px;  
+    text-decoration: none;  
 }
 .header .web-name h2 {
     margin-left: 5.2rem;

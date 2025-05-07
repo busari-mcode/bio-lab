@@ -13,9 +13,23 @@
     margin-right: -25rem;
 }
 .home ul li {
-    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.home ul li 
+.page,
+.people,
+.publications,
+.labpics,
+.animations,
+.teaching,
+.equipbook,
+.phys,
+.join
+{
+    padding-bottom: 5rem;
     color: rgba(69, 86, 103, 0.775);
     font-size: 25px;
+    text-decoration: none;
 }
 .images {
     padding-top: 20px;
