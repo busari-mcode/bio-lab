@@ -8,12 +8,10 @@ const Header = () => {
         <section className="header">
             <div className="web-name">
                 <div className="logo">
-                    <Link to="/" className='logo-comb'>
-                        <h2>2</h2>
-                        <h1>bio lab</h1>
-                    </Link>
+                    <h2><Link to="/" className='logo-num'>2</Link></h2>
+                    <h1><Link to="/" className='logo-name'>bio lab</Link></h1>
                 </div>
-                <h3><Link to="/">biophysics and bioimaging @ UI</Link></h3>
+                <h3><Link to="/" className='title'>biophysics and bioimaging @ UI</Link></h3>
             </div>
             <div className="auth">
                 <i class="fa-solid fa-circle-user"></i>
