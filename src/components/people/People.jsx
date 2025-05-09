@@ -1,10 +1,15 @@
 import React from 'react'
+import { team } from '../../dummydata'
 
 const People = () => {
   return (
     <>
-        <section className="people">
-            <h1>people</h1>
+        <section className="team">
+            {team.map((val) => {
+              <div className="img"> 
+                <img src={val.cover} alt=""/>
+              </div>
+            })}
         </section>
     </>
   )

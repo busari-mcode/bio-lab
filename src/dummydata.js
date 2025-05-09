@@ -2,7 +2,7 @@
 
 export const team = [
     {
-        cover:"",
+        cover:"../images/Vasdekis_Andreas_UIdaho_photob.avif",
         name:"",
         title:"",
     },
