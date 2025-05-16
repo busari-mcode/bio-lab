@@ -1,4 +1,5 @@
 import React from 'react'
+import './people.css'
 // import images from '../../../public'
 // import test_images from '../../test_images'
 // import 'public\images\Vasdekis_Andreas_UIdaho_photob.avif'
@@ -23,68 +24,70 @@ const People = () => {
               </div>
             })} */}
             <div className="team">team</div>
+            <div className="profiles">
             <div className="andreas">
              <img src={andreas} alt="" />
               <div>
-                <h3>Andreas E. Vasdekis</h3>
+                <h3>Andreas&nbsp;E.&nbsp;Vasdekis</h3>
                 <h3>(pi)</h3>
              </div>
             </div>
             <div className="cas">
              <img src={cas} alt="" />
               <div>
-                <h3>Cas Tuson</h3>
-                <h3>(GR student)</h3>
+                <h3>Cas&nbsp;Tuson</h3>
+                <h3>(GR&nbsp;student)</h3>
              </div>
             </div>
             <div className="sulaimon">
              <img src={sulaimon} alt="" />
               <div>
-                <h3>Sulaimon Balogun</h3>
-                <h3>(GR student)</h3>
+                <h3>Sulaimon&nbsp;Balogun</h3>
+                <h3>(GR&nbsp;student)</h3>
              </div>
             </div>
             <div className="ram">
              <img src={ram} alt="" />
               <div>
-                <h3>Ram Kasu</h3>
-                <h3>(pi)</h3>
+                <h3>Ram&nbsp;Kasu</h3>
+                <h3>(postdoctoral&nbsp;scholar)</h3>
              </div>
             </div>
-            <div className="andreas">
-             <img src={prof} alt="" />
+            <div className="nathanR">
+             <img src={nathanR} alt="" />
               <div>
-                <h3>Andreas E. Vasdekis</h3>
-                <h3>(pi)</h3>
+                <h3>Nathan&nbsp;Rubio</h3>
+                <h3>(UG&nbsp;research)</h3>
              </div>
             </div>
-            <div className="andreas">
-             <img src={prof} alt="" />
+            <div className="adebola">
+             <img src={adebola} alt="" />
               <div>
-                <h3>Andreas E. Vasdekis</h3>
-                <h3>(pi)</h3>
+                <h3>Adebola&nbsp;Saseyi</h3>
+                <h3>(GR&nbsp;student)</h3>
              </div>
             </div>
-            <div className="andreas">
-             <img src={prof} alt="" />
+            <div className="saeid">
+             <img src={saeid} alt="" />
               <div>
-                <h3>Andreas E. Vasdekis</h3>
-                <h3>(pi)</h3>
+                <h3>Saeid&nbsp;Sarollahi</h3>
+                <h3>(postdoctoral&nbsp;scholar)</h3>
              </div>
             </div>
-            <div className="andreas">
-             <img src={prof} alt="" />
+            <div className="jinming">
+             <img src={jinming} alt="" />
               <div>
-                <h3>Andreas E. Vasdekis</h3>
-                <h3>(pi)</h3>
+                <h3>Jinming&nbsp;Zhang</h3>
+                <h3>(GR&nbsp;student)</h3>
              </div>
             </div>
-            <div className="andreas">
-             <img src={prof} alt="" />
+            <div className="nathanC">
+             <img src={nathanC} alt="" />
               <div>
-                <h3>Andreas E. Vasdekis</h3>
-                <h3>(pi)</h3>
+                <h3>Nathan&nbsp;Crosby</h3>
+                <h3>(UG&nbsp;research)</h3>
              </div>
+            </div>
             </div>
 
         </section>

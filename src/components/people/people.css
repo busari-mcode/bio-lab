@@ -1,0 +1,65 @@
+.team_section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.team_section h3 {
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(15, 19, 22, 0.775);
+}
+.team_section .team {
+    margin-right: 20px;
+    margin-top: 10px;
+    color: rgba(69, 86, 103, 0.775);
+    font-size: 25px;
+    font-weight: 700;
+}
+.team_section img {
+    margin-bottom: 10px;
+}
+.profiles {
+    display: grid;
+    grid-template-columns: 50px 50px 50px; 
+    row-gap: 60px;
+    column-gap: 20rem;
+    margin-right: 20rem;
+    margin-top: 30px;
+    width: 35%;
+}
+.andreas img {
+    width: 200px;
+    height: 170px;
+}
+.cas img {
+    width: 200px;
+    height: 170px;
+}
+.sulaimon img {
+    width: 200px;
+    height: 170px;
+}
+.ram img {
+    width: 200px;
+    height: 170px;
+}
+.nathanR img {
+    width: 200px;
+    height: 170px;
+}
+.adebola img {
+    width: 200px;
+    height: 170px;
+}
+.saeid img {
+    width: 200px;
+    height: 170px;
+}
+.jinming img {
+    width: 200px;
+    height: 170px;
+}
+.nathanC img {
+    width: 200px;
+    height: 170px;
+}
