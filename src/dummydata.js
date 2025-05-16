@@ -2,50 +2,50 @@
 
 export const team = [
     {
-        cover:"./images/Vasdekis_Andreas_UIdaho_photob.avif",
+        cover:"../test_images/Vasdekis_Andreas_UIdaho_photob.avif",
         name:"Andreas E. Vasdekis",
         title:"(pi)",
     },
-    {
-        cover:"",
-        name:"Cas Tuson",
-        title:"(GR student)",
-    },
-    {
-        cover:"",
-        name:"Sulaimon Balogun",
-        title:"(GR student)",
-    },
-    {
-        cover:"",
-        name:"Ram Kasu",
-        title:"(postdoctoral scholar)",
-    },
-    {
-        cover:"",
-        name:"Nathan Rubio",
-        title:"(UG research)",
-    },
-    {
-        cover:"",
-        name:"Adebola Saseyi",
-        title:"(GR student)",
-    },
-    {
-        cover:"",
-        name:"Saeid Sarollahi",
-        title:"(postdoctoral scholar)",
-    },
-    {
-        cover:"",
-        name:"Jinming Zhang",
-        title:"(GR student)",
-    },
-    {
-        cover:"",
-        name:"Nathan Crosby",
-        title:"(UG research)",
-    },
+    // {
+    //     cover:"",
+    //     name:"Cas Tuson",
+    //     title:"(GR student)",
+    // },
+    // {
+    //     cover:"",
+    //     name:"Sulaimon Balogun",
+    //     title:"(GR student)",
+    // },
+    // {
+    //     cover:"",
+    //     name:"Ram Kasu",
+    //     title:"(postdoctoral scholar)",
+    // },
+    // {
+    //     cover:"",
+    //     name:"Nathan Rubio",
+    //     title:"(UG research)",
+    // },
+    // {
+    //     cover:"",
+    //     name:"Adebola Saseyi",
+    //     title:"(GR student)",
+    // },
+    // {
+    //     cover:"",
+    //     name:"Saeid Sarollahi",
+    //     title:"(postdoctoral scholar)",
+    // },
+    // {
+    //     cover:"",
+    //     name:"Jinming Zhang",
+    //     title:"(GR student)",
+    // },
+    // {
+    //     cover:"",
+    //     name:"Nathan Crosby",
+    //     title:"(UG research)",
+    // },
 ]
 export const alumni_post_doc = [
     {
