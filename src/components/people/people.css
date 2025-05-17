@@ -1,7 +1,9 @@
+/********************* team section **************/
 .team_section {
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-bottom: 70px;
 }
 .team_section h3 {
     font-size: 15px;
@@ -62,4 +64,52 @@
 .nathanC img {
     width: 200px;
     height: 170px;
+}
+
+/**********alumni(postdoctoral scholars) section**********/
+.alumni_post_doc_section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.alumni_post_doc_section h3 {
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(15, 19, 22, 0.775);
+}
+.alumni_post_doc_section .alumni_post_doc {
+    margin-right: 20px;
+    color: rgba(69, 86, 103, 0.775);
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 0px !important;
+}
+.alumni_post_doc_section img {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: -15rem;
+}
+.alumni_post_doc_profiles {
+    display: grid;
+    grid-template-columns: 50px 50px 50px; 
+    row-gap: 60px;
+    column-gap: 20rem;
+    margin-right: 10rem;
+    /* margin-left: -27rem; */
+    margin-top: 30px;
+    width: 35%;
+}
+.nava img {
+    width: 200px;
+    height: 170px;
+}
+.shahla img {
+    width: 200px;
+    height: 170px;
+}
+.nava h3 {
+    margin-left: -15rem;
+}
+.shahla h3 {
+    margin-left: -15rem;
 }
