@@ -27,9 +27,21 @@
 .join
 {
     padding-bottom: 5rem;
-    color: rgba(69, 86, 103, 0.775);
+    color: rgba(44, 48, 51, 0.878);
     font-size: 25px;
     text-decoration: none;
+}
+.home ul li 
+.page:hover,
+.people:hover,
+.publications:hover,
+.labpics:hover,
+.animations:hover,
+.teaching:hover,
+.equipbook:hover,
+.phys:hover,
+.join:hover {
+    color: rgba(149, 161, 174, 0.908);
 }
 .images {
     padding-top: 20px;

@@ -71,6 +71,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-bottom: 70px;
 }
 .alumni_post_doc_section h3 {
     font-size: 15px;
@@ -111,4 +112,177 @@
 }
 .shahla h3 {
     margin-left: -15rem;
+}
+/**********alumni(students) section**********/
+.alumni_std_sec {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 100px;
+}
+.alumni_std_sec h3 {
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(15, 19, 22, 0.775);
+}
+.alumni_std_sec  .alumni_std {
+    margin-right: 20px;
+    color: rgba(69, 86, 103, 0.775);
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: -10rem !important;
+}
+.alumni_std_sec  img {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: -5rem;
+}
+.alumni_std_profiles {
+    display: grid;
+    grid-template-columns: 50px 50px 50px; 
+    row-gap: 60px;
+    column-gap: 20rem;
+    margin-right: 10rem;
+    margin-top: 30px;
+    width: 35%;
+}
+.lochlann img {
+    width: 200px;
+    height: 170px;
+}
+.lochlann h3 {
+    margin-left: -5rem;
+}
+.cole img {
+    width: 200px;
+    height: 170px;
+}
+.cole h3 {
+    margin-left: -5rem;
+}
+.jon img {
+    width: 200px;
+    height: 170px;
+}
+.jon h3 {
+    margin-left: -5rem;
+}
+.tristin img {
+    width: 200px;
+    height: 170px;
+}
+.tristin h3 {
+    margin-left: -5rem;
+}
+.michael img {
+    width: 200px;
+    height: 170px;
+}
+.michael h3 {
+    margin-left: -5rem;
+}
+.nathan img {
+    width: 200px;
+    height: 170px;
+}
+.nathan h3 {
+    margin-left: -5rem;
+}
+.connor img {
+    width: 200px;
+    height: 170px;
+}
+.connor h3 {
+    margin-left: -5rem;
+}
+.hamdah img {
+    width: 200px;
+    height: 170px;
+}
+.hamdah h3 {
+    margin-left: -5rem;
+}
+.norah img {
+    width: 200px;
+    height: 170px;
+}
+.norah h3 {
+    margin-left: -5rem;
+}
+.grant img {
+    width: 200px;
+    height: 170px;
+}
+.grant h3 {
+    margin-left: -5rem;
+}
+.adam img {
+    width: 200px;
+    height: 170px;
+}
+.adam h3 {
+    margin-left: -5rem;
+}
+.wei img {
+    width: 200px;
+    height: 170px;
+}
+.wei h3 {
+    margin-left: -5rem;
+}
+.joshua img {
+    width: 200px;
+    height: 170px;
+}
+.joshua h3 {
+    margin-left: -5rem;
+}
+.joey img {
+    width: 200px;
+    height: 170px;
+}
+.joey h3 {
+    margin-left: -5rem;
+}
+.alyssa img {
+    width: 200px;
+    height: 170px;
+}
+.alyssa h3 {
+    margin-left: -5rem;
+}
+.denis img {
+    width: 200px;
+    height: 170px;
+}
+.denis h3 {
+    margin-left: -5rem;
+}
+.rebecca img {
+    width: 200px;
+    height: 170px;
+}
+.rebecca h3 {
+    margin-left: -5rem;
+}
+.amrah img {
+    width: 200px;
+    height: 170px;
+}
+.amrah h3 {
+    margin-left: -5rem;
+}
+.joey2 img {
+    width: 200px;
+    height: 170px;
+}
+.joey2 h3 {
+    margin-left: -5rem;
+}
+.melissa img {
+    width: 200px;
+    height: 170px;
+}
+.melissa h3 {
+    margin-left: -5rem;
 }
