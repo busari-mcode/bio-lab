@@ -1,0 +1,14 @@
+.publications {
+    margin-top: 50px;
+}
+.top_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+}
+.book {
+    background-color:rgba(44, 48, 51, 0.878);
+    color: rgb(255, 255, 255);
+    border-width: 30px;
+}

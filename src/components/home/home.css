@@ -1,8 +1,6 @@
 .home {
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
-    /* column-gap: 10px; */
 }
 .home ul {
     list-style-type: none;
