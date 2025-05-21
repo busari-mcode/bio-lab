@@ -6,9 +6,45 @@
     align-items: center;
     justify-content: space-around;
     width: 75%;
+    margin-bottom: 60px;
 }
+/*********************Button *************************/
 .book {
-    background-color:rgba(44, 48, 51, 0.878);
+    background-color: rgba(69, 86, 103, 0.775);
     color: rgb(255, 255, 255);
-    border-width: 30px;
+    width: 182px;
+    height: 60px;
+    padding: 13px 10px 10px 10px;
+    transition: background-color 0.5s ease-in-out;
+}
+.book:hover {
+    cursor: pointer;
+    background-color: rgba(0, 128, 0, 1);
+}
+.journals {
+    background-color: rgba(69, 86, 103, 0.775);
+    color: rgb(255, 255, 255);
+    width: 130px;
+    height: 60px;
+    padding: 13px 10px 10px 13px;
+    transition: background-color 0.5s ease-in-out;
+}
+.journals:hover {
+    cursor: pointer;
+    background-color: rgba(0, 128, 0, 1);
+}
+.patent {
+    background-color: rgba(69, 86, 103, 0.775);
+    color: rgb(255, 255, 255);
+    width: 135px;
+    height: 60px;
+    padding: 13px 10px 10px 20px;
+    transition: background-color 0.5s ease-in-out;
+}
+.patent:hover {
+    cursor: pointer;
+    background-color: rgba(0, 128, 0, 1);
+}
+.book_chp {
+    margin-left: 30px;
 }
