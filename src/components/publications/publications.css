@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: space-around;
     width: 40%;
-    margin-bottom: 60px;
     margin: auto;
+    padding-bottom: 60px;
 }
 /*********************Button *************************/
 .book {
@@ -23,9 +23,15 @@
     background-color: rgba(0, 128, 0, 1);
 }
 .book_chp {
-    /* margin-left: 30px; */
     margin: auto;
     width: 75%;
+}
+.book_chp h6 {
+    margin-bottom: 15px;
+}
+.book_chp li {
+    margin-left: 18px;
+    font-size: 18px;
 }
 .journals {
     background-color: rgba(69, 86, 103, 0.775);
