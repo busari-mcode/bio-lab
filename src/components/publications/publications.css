@@ -24,14 +24,24 @@
 }
 .book_chp {
     margin: auto;
-    width: 75%;
+    width: 60%;
 }
 .book_chp h6 {
     margin-bottom: 15px;
+    color: black;
 }
 .book_chp li {
     margin-left: 18px;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.752);
+}
+.book_chp li a {
+    color: black;
+    text-decoration: none;
+}
+.book_chp li a span {
+    text-decoration: underline;
 }
 .journals {
     background-color: rgba(69, 86, 103, 0.775);
@@ -44,6 +54,10 @@
 .journals:hover {
     cursor: pointer;
     background-color: rgba(0, 128, 0, 1);
+}
+.journals_section {
+    margin: auto;
+    width: 60%;
 }
 .patent {
     background-color: rgba(69, 86, 103, 0.775);
