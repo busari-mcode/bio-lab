@@ -1,12 +1,13 @@
 .publications {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .top_section {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 75%;
+    width: 40%;
     margin-bottom: 60px;
+    margin: auto;
 }
 /*********************Button *************************/
 .book {
@@ -20,6 +21,11 @@
 .book:hover {
     cursor: pointer;
     background-color: rgba(0, 128, 0, 1);
+}
+.book_chp {
+    /* margin-left: 30px; */
+    margin: auto;
+    width: 75%;
 }
 .journals {
     background-color: rgba(69, 86, 103, 0.775);
@@ -44,7 +50,4 @@
 .patent:hover {
     cursor: pointer;
     background-color: rgba(0, 128, 0, 1);
-}
-.book_chp {
-    margin-left: 30px;
 }
