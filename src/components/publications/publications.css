@@ -22,27 +22,6 @@
     cursor: pointer;
     background-color: rgba(0, 128, 0, 1);
 }
-.book_chp {
-    margin: auto;
-    width: 60%;
-}
-.book_chp h6 {
-    margin-bottom: 15px;
-    color: black;
-}
-.book_chp li {
-    margin-left: 18px;
-    font-size: 16px;
-    line-height: 25px;
-    color: rgba(0, 0, 0, 0.752);
-}
-.book_chp li a {
-    color: black;
-    text-decoration: none;
-}
-.book_chp li a span {
-    text-decoration: underline;
-}
 .journals {
     background-color: rgba(69, 86, 103, 0.775);
     color: rgb(255, 255, 255);
@@ -70,4 +49,82 @@
 .patent:hover {
     cursor: pointer;
     background-color: rgba(0, 128, 0, 1);
+}
+
+/************** book chapters *************/
+.book_chp {
+    margin: auto;
+    width: 60%;
+}
+.book_chp h6 {
+    margin-bottom: 15px;
+    color: black;
+}
+.book_chp li {
+    margin-left: 18px;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.752);
+}
+.book_chp li a {
+    color: black;
+    text-decoration: none;
+}
+.book_chp li a span {
+    text-decoration: underline;
+}
+
+/************** journals ******************/
+.journals_section {
+    margin: auto;
+    width: 60%;
+    margin-top: 45px;
+}
+.journals_section h6 {
+    margin-bottom: 15px;
+    color: black;
+}
+.journals_section li {
+    margin-left: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.752);
+    margin-bottom: 15px;
+}
+.journals_section li a {
+    color: black;
+    text-decoration: none;
+}
+.journals_section li a span {
+    text-decoration: underline;
+}
+.journals_section .prior {
+    margin-top: 40px;
+    margin-left: -1px;
+}
+
+/************** journals ******************/
+.patents_section {
+    margin: auto;
+    width: 60%;
+    margin-top: 45px;
+}
+.patents_section h6 {
+    margin-bottom: 15px;
+    color: black;
+    margin-left: 10px;
+}
+.patents_section li {
+    margin-left: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.752);
+    margin-bottom: 15px;
+}
+.patents_section li a {
+    color: black;
+    text-decoration: none;
+}
+.patents_section li a span {
+    text-decoration: underline;
 }
