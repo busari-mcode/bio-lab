@@ -5,5 +5,16 @@
     column-gap: 20rem;
     margin-left: 20rem;
     margin-top: 25px;
+    margin-bottom: 10rem;
     width: 35%;
+    color: rgba(69, 86, 103, 0.775);
+    font-size: 15px;
+}
+.farewell img {
+    width: 350px;
+    height: 250px;
+}
+.pouring img {
+    width: 350px;
+    height: 250px;
 }

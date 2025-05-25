@@ -15,11 +15,11 @@ const LabPics = () => {
         <section className="lab_pics">
           <div className='farewell'>
             <img src={farewell} alt="" />
-            <h4>farewell&nbsp;in&nbsp;the&nbsp;time&nbsp;of&nbsp;COVID&nbsp;-&nbsp;all&nbsp;the&nbsp;Best&nbsp;Shahla&nbsp;and&nbsp;Nava&nbsp;(2021)</h4>
+            <h4>farewell&nbsp;in&nbsp;the&nbsp;time&nbsp;of&nbsp;COVID&nbsp;&#8209;&nbsp;all&nbsp;the&nbsp;BEST Shahla&nbsp;and&nbsp;Nava&nbsp;(2021)!</h4>
           </div>
           <div className='pouring'>
             <img src={pouring} alt="" />
-            <h4>pouring&nbsp;plates (Gurkeerat,&nbsp;2020)</h4>
+            <h4>pouring&nbsp;plates&nbsp;(Gurkeerat,&nbsp;2020)</h4>
           </div>
           <div className='ug_award'>
             <img src={award} alt="" />
