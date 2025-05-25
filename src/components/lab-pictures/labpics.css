@@ -1,0 +1,9 @@
+.lab_pics {
+    display: grid;
+    grid-template-columns: 50px 50px 50px; 
+    row-gap: 60px;
+    column-gap: 20rem;
+    margin-left: 20rem;
+    margin-top: 25px;
+    width: 35%;
+}
