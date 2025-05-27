@@ -1,0 +1,44 @@
+.join {
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.phd_pos_sect {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-bottom: 40px;
+}
+.phd_pos {
+    width: 55%;
+}
+.phd_pos_sect img {
+    width: 340px;
+    height: 280px;
+    margin-left: -8rem;
+}
+.phd_pos p {
+    font-size: 20px;
+}
+.phd_pos h4:first-of-type {
+    margin-bottom: 60px;
+}
+.postdoc_pos_sect {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.postdoc_pos_sect img {
+    width: 332px;
+    height: 270px;
+    margin-left: -8rem;
+}
+.postdoc_pos {
+    width: 55%;
+    margin-top: 150px;
+}
+.postdoc_pos p {
+    font-size: 20px;
+}
