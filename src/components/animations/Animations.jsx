@@ -8,21 +8,27 @@ const Animations = () => {
             <div className="animations">Below are some animations pertaining to SIIL microfabrication and SIIL enabled gas sensors:</div>
             <div className="assembly">
               <div className="SIIL_assembly">SIIL microsystem assembly:</div>
-              <iframe width="560" height="315" 
+              <div className="assembly-video-frame">
+                <iframe width="560" 
+                      height="315" 
                       src="https://www.youtube.com/watch?v=f19rrRaR0Z0" 
                       frameborder="0" 
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                       allowfullscreen>
-              </iframe>
+                </iframe>
+              </div>
             </div>
             <div className="sensors">
               <div className="SIIL_sensors">SIIL modular sensors:</div>
-              <iframe width="560" height="315" 
+              <div className="sensors-video-frame">
+                <iframe width="560" 
+                      height="315" 
                       src="https://www.youtube.com/watch?v=aOUYMnE9c2E" 
                       frameborder="0" 
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                       allowfullscreen>
-              </iframe>
+                </iframe>
+              </div>
             </div>
         </section>
     </>
