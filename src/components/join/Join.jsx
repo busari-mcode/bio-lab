@@ -6,7 +6,7 @@ import river from '../../test_images/river_JPG.avif'
 const Join = () => {
   return (
     <>
-        <section className="join">
+        <section className="join_sect">
             <div className="phd_pos_sect">
               <div className="phd_pos">
                 <h4>Join us!</h4>

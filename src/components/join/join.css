@@ -1,13 +1,13 @@
-.join {
+.join_sect {
     margin: auto;
     padding-top: 30px;
     padding-bottom: 70px;
     color: rgba(69, 86, 103, 0.775);
 }
-.join:hover {
+.join_sect:hover {
     color: rgba(69, 86, 103, 0.775);
 }
-.join a {
+.join_sect a {
     text-decoration: underline;
     color: rgba(69, 86, 103, 0.775);
 }
