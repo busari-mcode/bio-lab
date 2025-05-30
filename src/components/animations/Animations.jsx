@@ -4,14 +4,14 @@ import './animations.css'
 const Animations = () => {
   return (
     <>
-        <section className="animations">
-            <div className="animations">Below are some animations pertaining to SIIL microfabrication and SIIL enabled gas sensors:</div>
+        <section className="animatns_section">
+            <div className="animatns">Below are some animations pertaining to SIIL microfabrication and SIIL enabled gas sensors:</div>
             <div className="assembly">
               <div className="SIIL_assembly">SIIL microsystem assembly:</div>
               <div className="assembly-video-frame">
                 <iframe width="560" 
                       height="315" 
-                      src="https://www.youtube.com/watch?v=f19rrRaR0Z0" 
+                      src="https://www.youtube.com/embed/f19rrRaR0Z0" 
                       frameborder="0" 
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                       allowfullscreen>
@@ -23,7 +23,7 @@ const Animations = () => {
               <div className="sensors-video-frame">
                 <iframe width="560" 
                       height="315" 
-                      src="https://www.youtube.com/watch?v=aOUYMnE9c2E" 
+                      src="https://www.youtube.com/embed/aOUYMnE9c2E" 
                       frameborder="0" 
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                       allowfullscreen>

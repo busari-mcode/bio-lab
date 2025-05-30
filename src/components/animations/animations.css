@@ -1,0 +1,51 @@
+.animatns_section {
+    padding-top: 30px;
+    padding-bottom: 200px;
+    color: #767373da;
+}
+.animatns_section:hover {
+    color: #767373da;
+}
+.animatns {
+    margin-left: 300px;
+    font-size: 17px;
+    color: #767373da;
+}
+.animatns:hover {
+   color: #767373da;
+}
+.assembly-video-frame {
+    width: 560px;
+    height: 315px;
+    border: 2px solid #444;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+.sensors-video-frame {
+    width: 560px;
+    height: 315px;
+    border: 2px solid #444;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+.assembly {
+    display: flex;
+    justify-content: center;
+    margin-left: -6rem;
+    margin-bottom: 50px;
+}
+.sensors {
+    display: flex;
+    justify-content: center;
+    margin-left: -6rem;
+}
+.SIIL_assembly {
+    margin-right: 70px;
+    margin-top: 180px;
+}
+.SIIL_sensors {
+    margin-right: 100px;
+    margin-top: 180px;
+}
