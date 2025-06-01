@@ -41,7 +41,7 @@
 .drawings img:nth-child(5) {
     width: 420px;
     height: 210px;
-    margin-left: -50rem;
+    /* margin-left: -50rem; */
 }
 
 
