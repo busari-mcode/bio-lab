@@ -12,12 +12,14 @@ const Teaching = () => {
     <>
         <section className="teaching">
             <h3>some fun drawings (from homework and exam papers):</h3>
-            <img src={pics1} alt="" />
-            <img src={pics2} alt="" />
-            <img src={pics3} alt="" />
-            <img src={pics4} alt="" />
-            <img src={pics5} alt="" />
-            <img src={pics6} alt="" />
+            <div className="drawings">
+              <img src={pics1} alt="" />
+              <img src={pics2} alt="" />
+              <img src={pics3} alt="" />
+              <img src={pics4} alt="" />
+              <img src={pics5} alt="" />
+              <img src={pics6} alt="" />
+            </div>
         </section>
     </>
   )
