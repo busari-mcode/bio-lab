@@ -11,6 +11,7 @@
 .drawings {
     margin-left: 15rem;
     position: relative;
+    margin-bottom: 10rem;
 }
 
 .drawings img:nth-child(1) {
