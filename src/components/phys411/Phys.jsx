@@ -4,7 +4,7 @@ const Phys = () => {
   return (
     <>
         <section className="phys">
-            <h1>Phys</h1>
+            <p className="instruction">click on the icon to download the images and lecture notes:</p>
         </section>
     </>
   )
