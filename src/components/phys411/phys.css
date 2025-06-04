@@ -1,0 +1,22 @@
+.phys {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    color: #000;
+}
+
+.phys:hover {
+    color: #000;
+}
+.instruction {
+    width: 18%;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 42px;
+    font-weight: 100;
+}
+
+.icon i {
+    font-size: 100px;
+    color: #000;
+}
