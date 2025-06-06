@@ -1,11 +1,11 @@
-.phys {
+.phys411 {
     display: flex;
     justify-content: center;
     margin-top: 10rem;
     color: #000;
 }
 
-.phys:hover {
+.phys411:hover {
     color: #000;
 }
 .instruction {

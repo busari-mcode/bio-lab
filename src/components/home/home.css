@@ -1,6 +1,8 @@
 .home {
     display: flex;
     justify-content: space-around;
+    border-bottom: 1px solid rgb(222, 222, 217);
+    margin-bottom: 200px;
 }
 .home ul {
     list-style-type: none;
