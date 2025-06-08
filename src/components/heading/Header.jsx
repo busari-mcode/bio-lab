@@ -1,6 +1,8 @@
 import React from 'react'
 import './header.css'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
+import google from '../../test_images/google_icon.png'
+import facebook from '../../test_images/facebook_icon.png'
 
 const Header = () => {
   return (
@@ -24,15 +26,15 @@ const Header = () => {
                 <p>New to this site? <span>Sign Up</span></p>
                 <form>
                     <div className="google">
-                        <i class="fa-brands fa-google"></i>
-                        <input type="text" id="name" name="name" placeholder="Log in with Google" />
+                        <img src={google} alt="" />
+                        <input className='google-textbox' type="text" id="name" name="name" placeholder="Log in with Google" />
                     </div>
                     <div className="facebook">
-                        <i class="fa-brands fa-facebook"></i>
-                        <input type="text" id="name" name="name" placeholder="Log in with Facebook" />
+                        <img src={facebook} alt="" />
+                        <input className='facebook-textbox' type="text" id="name" name="name" placeholder="Log in with Facebook" />
                     </div>
                     <div className='divider'>or</div>
-                    <input type="text" id="name" name="name" placeholder="Log in with Email" />
+                    <input className='email-textbox' type="text" id="name" name="name" placeholder="Log in with Email" />
                 </form>
             </div>
     </>
