@@ -57,3 +57,33 @@
     font-weight: 100;
     color: rgb(112, 209, 47);
 }
+
+/* .log-in {
+    display: none;
+} */
+
+.header {
+    display: none;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 180px;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+
+.divider:not(:empty)::before {
+    margin-right: 0.5em;
+}
+
+.divider:not(:empty)::after {
+    margin-left: 0.5em;
+}

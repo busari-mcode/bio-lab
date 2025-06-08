@@ -18,6 +18,23 @@ const Header = () => {
                 <h4>Log In</h4>
             </div>
         </section>
+            <div className="log-in">
+                <i class="fa-solid fa-xmark"></i>
+                <h1>Log In</h1>
+                <p>New to this site? <span>Sign Up</span></p>
+                <form>
+                    <div className="google">
+                        <i class="fa-brands fa-google"></i>
+                        <input type="text" id="name" name="name" placeholder="Log in with Google" />
+                    </div>
+                    <div className="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                        <input type="text" id="name" name="name" placeholder="Log in with Facebook" />
+                    </div>
+                    <div className='divider'>or</div>
+                    <input type="text" id="name" name="name" placeholder="Log in with Email" />
+                </form>
+            </div>
     </>
   )
 }
