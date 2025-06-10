@@ -79,7 +79,7 @@
 .divider::after {
     content: '';
     flex: 1;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgba(69, 86, 103, 0.775);
 }
 
 .divider:not(:empty)::before {
@@ -116,6 +116,11 @@
 
 .log-in p {
     margin-bottom: 25px;
+    color: rgba(44, 48, 51, 0.878);
+}
+
+.log-in span {
+    color: #68de94f9;
 }
 
 .google-textbox,
@@ -131,7 +136,15 @@
 }
 
 .google-textbox::placeholder {
-  color: #000;
+  font-size: 16px;
+}
+
+.facebook-textbox::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.email-textbox::placeholder {
   font-size: 16px;
 }
 
@@ -154,4 +167,21 @@
     position: absolute;
     margin-top: 10px;
     margin-left: 6px;
+}
+
+.divider {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgba(44, 48, 51, 0.878);
+}
+
+.facebook .facebook-textbox {
+    background-color: #0000ff;
+    border: none;
+}
+
+.google-textbox,
+.facebook-textbox,
+.email-textbox {
+    border: 1px solid rgb(232, 230, 230);
 }
