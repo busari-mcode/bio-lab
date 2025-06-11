@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './header.css'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 import google from '../../test_images/google_icon.png'
 import facebook from '../../test_images/facebook_icon.png'
 
 const Header = () => {
+    const [isLoggingIn, setIsLoggingIn] = useState(false);
   return (
-    <>
+    <> 
+        {isLoggingIn ? null : (
         <section className="header">
             <div className="web-name">
                 <div className="logo">
@@ -15,13 +17,16 @@ const Header = () => {
                 </div>
                 <h3><Link to="/" className='title'>biophysics and bioimaging @ UI</Link></h3>
             </div>
-            <div className="auth">
+            <div className="auth" onClick={() => setIsLoggingIn(true)}>
                 <i class="fa-solid fa-circle-user"></i>
                 <h4>Log In</h4>
             </div>
         </section>
+        ) }
+
+        {isLoggingIn ? (
             <div className="log-in">
-                <i class="fa-solid fa-xmark"></i>
+                <i class="fa-solid fa-xmark" onClick={() => setIsLoggingIn(false)}></i>
                 <h1>Log In</h1>
                 <p>New to this site? <span>Sign Up</span></p>
                 <form>
@@ -37,6 +42,7 @@ const Header = () => {
                     <input className='email-textbox' type="text" id="name" name="name" placeholder="Log in with Email" />
                 </form>
             </div>
+        ) : null}
     </>
   )
 }
