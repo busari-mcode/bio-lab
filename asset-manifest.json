@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/bio-lab/static/css/main.d702f6a7.css",
-    "main.js": "/bio-lab/static/js/main.48531e5c.js",
+    "main.css": "/bio-lab/static/css/main.ad2d33df.css",
+    "main.js": "/bio-lab/static/js/main.28034ae8.js",
     "static/js/453.31090114.chunk.js": "/bio-lab/static/js/453.31090114.chunk.js",
+    "static/media/live-cells-trapping.gif": "/bio-lab/static/media/live-cells-trapping.179fddd5a6e147c80f00.gif",
+    "static/media/laser-spot.gif": "/bio-lab/static/media/laser-spot.5a44855b443aadc5c94a.gif",
     "static/media/Picture6.avif": "/bio-lab/static/media/Picture6.3edb56410c74279da571.avif",
     "static/media/Jinming.avif": "/bio-lab/static/media/Jinming.7b52aceed0055f3f9cf1.avif",
     "static/media/saeid.avif": "/bio-lab/static/media/saeid.74f22d8b4d56b35aa11f.avif",
@@ -46,6 +48,9 @@
     "static/media/Rebecca Winzer.avif": "/bio-lab/static/media/Rebecca Winzer.04fa4297ac688819c0f1.avif",
     "static/media/Joey Perko.avif": "/bio-lab/static/media/Joey Perko.e55d5d78d9c91b8d9356.avif",
     "static/media/Wei Hu.avif": "/bio-lab/static/media/Wei Hu.4b1166c24fe93b983a87.avif",
+    "static/media/3-d.avif": "/bio-lab/static/media/3-d.dd72433dcbccac68fded.avif",
+    "static/media/microfludics.avif": "/bio-lab/static/media/microfludics.fe87324ac4f5f00cf0c2.avif",
+    "static/media/target-sample.avif": "/bio-lab/static/media/target-sample.0e247c45951d491dd547.avif",
     "static/media/Nathan Crosby.avif": "/bio-lab/static/media/Nathan Crosby.3abe68f6c54f2983d8d2.avif",
     "static/media/Nathan rubio.avif": "/bio-lab/static/media/Nathan rubio.3abe68f6c54f2983d8d2.avif",
     "static/media/Michale.avif": "/bio-lab/static/media/Michale.8a21fbf9cf7513a8dd5f.avif",
@@ -53,12 +58,12 @@
     "static/media/Melissa Green.avif": "/bio-lab/static/media/Melissa Green.964fca9f08d76cf64770.avif",
     "static/media/Norah Al Sairy.avif": "/bio-lab/static/media/Norah Al Sairy.964fca9f08d76cf64770.avif",
     "index.html": "/bio-lab/index.html",
-    "main.d702f6a7.css.map": "/bio-lab/static/css/main.d702f6a7.css.map",
-    "main.48531e5c.js.map": "/bio-lab/static/js/main.48531e5c.js.map",
+    "main.ad2d33df.css.map": "/bio-lab/static/css/main.ad2d33df.css.map",
+    "main.28034ae8.js.map": "/bio-lab/static/js/main.28034ae8.js.map",
     "453.31090114.chunk.js.map": "/bio-lab/static/js/453.31090114.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d702f6a7.css",
-    "static/js/main.48531e5c.js"
+    "static/css/main.ad2d33df.css",
+    "static/js/main.28034ae8.js"
   ]
 }
