@@ -72,7 +72,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    width: 280px;
+    width: 300px;
 }
 
 .divider::before,
@@ -95,13 +95,16 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    padding-top: 100px;
+    padding-top: 140px;
+    background-color: #ffff;
+    z-index: 10;
+    box-shadow: 0 100vh 0 100vh white;
 }
 
 .log-in .fa-solid {
     position: absolute;
-    top: 3rem;
-    right: 3rem;
+    top: 1rem;
+    right: 2rem;
     font-size: 30px;
     color: rgba(44, 48, 51, 0.878);
 }
@@ -111,11 +114,11 @@
     font-size: 50px;
     font-weight: 100;
     margin-top: 2rem;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .log-in p {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     color: rgba(59, 73, 88, 0.775);
 }
 
@@ -126,13 +129,13 @@
 .google-textbox,
 .facebook-textbox,
 .email-textbox {
-    width: 280px;
-    height: 40px;
+    width: 300px;
+    height: 50px;
     padding-left: 60px;
 }
 
 .google-textbox {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .google-textbox::placeholder {
@@ -154,19 +157,19 @@
 }
 
 .google img {
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
     position: absolute;
-    margin-top: 10px;
-    margin-left: 6px;
+    margin-top: 15px;
+    margin-left: 8px;
 }
 
 .facebook img {
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
     position: absolute;
     margin-top: 10px;
-    margin-left: 6px;
+    margin-left: 8px;
 }
 
 .divider {
