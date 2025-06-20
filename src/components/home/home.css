@@ -74,3 +74,27 @@
     height: 17rem;
     margin-left: -12rem;
 }
+
+
+/**************************** Responsiveness ********************/
+@media screen and (max-width: 599px) {
+    .home ul {
+        display: none;
+    }
+    .home .images {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .home ul {
+        display: none;
+    }
+    .home .images {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

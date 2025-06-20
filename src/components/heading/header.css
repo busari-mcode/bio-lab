@@ -188,3 +188,19 @@
 .email-textbox {
     border: 1px solid rgb(232, 230, 230);
 }
+
+
+/**************************** Responsiveness ********************/
+@media screen and (max-width: 599px) {
+    .header .auth {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .header .auth {
+        display: none;
+    }
+    
+}
