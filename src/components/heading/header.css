@@ -9,6 +9,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    margin-top: -40px;
 }
 .header .web-name {
     padding-top: 50px;
@@ -43,10 +45,6 @@
     color: rgba(69, 86, 103, 0.775);
     text-decoration: none;
 }
-.header .auth {
-    cursor: pointer;
-    margin-top: -40px;
-}
 .header .auth i {
     margin-right: 10px;
     font-size: 28px;
@@ -59,14 +57,6 @@
 }
 
 /****************** Login section ***************/
-
-/* .log-in {
-    display: none;
-} */
-
-/* .header {
-    display: none;
-} */
 
 .divider {
     display: flex;
@@ -189,18 +179,118 @@
     border: 1px solid rgb(232, 230, 230);
 }
 
+.menu-icon {
+    display: none;
+}
+
+.mobile-menu ul {
+    list-style-type: none;
+    padding: 20px;
+    text-align: left;
+    cursor: pointer;
+    margin-right: -25rem;
+}
+
+.mobile-menu ul li {
+    padding-bottom: 1.5rem;
+}
+.mobile-menu ul li 
+.page,
+.people,
+.publications,
+.labpics,
+.animations,
+.teaching,
+.equipbook,
+.phys,
+.join
+{
+    padding-bottom: 5rem;
+    color: rgba(44, 48, 51, 0.878);
+    font-size: 25px;
+    text-decoration: none;
+}
+.mobile-menu ul li 
+.page:hover,
+.people:hover,
+.publications:hover,
+.labpics:hover,
+.animations:hover,
+.teaching:hover,
+.equipbook:hover,
+.phys:hover,
+.join:hover {
+    color: rgba(149, 161, 174, 0.908);
+}
+
+.mobile-menu .mobile-auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: -40px;
+}
+
+.mobile-menu .mobile-auth i {
+    margin-right: 10px;
+    font-size: 28px;
+    color: rgb(112, 209, 47);
+}
+
+.mobile-menu .mobile-auth h4 {
+    font-size: 13px;
+    font-weight: 100;
+    color: rgb(112, 209, 47);
+}
+
+/* .mobile-menu {
+    background: #333;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+} */
 
 /**************************** Responsiveness ********************/
 @media screen and (max-width: 599px) {
     .header .auth {
         display: none;
     }
-    
+    .menu-icon {
+        display: block;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-icon i {
+        font-size: 30px;
+        color: rgba(69, 86, 103, 0.775);
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
     .header .auth {
         display: none;
     }
-    
+    .menu-icon {
+        display: block;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-icon i {
+        font-size: 30px;
+        color: rgba(69, 86, 103, 0.775);
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
 }
