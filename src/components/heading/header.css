@@ -4,6 +4,7 @@
     align-items: center;
     margin-top: 10px;
     box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
 }
 .header .auth {
     display: flex;
@@ -189,6 +190,7 @@
     text-align: left;
     cursor: pointer;
     margin-right: -25rem;
+    margin-top: 2rem;
 }
 
 .mobile-menu ul li {
@@ -223,7 +225,7 @@
     color: rgba(149, 161, 174, 0.908);
 }
 
-.mobile-menu .mobile-auth {
+.mobile-auth {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -231,27 +233,46 @@
     margin-top: -40px;
 }
 
-.mobile-menu .mobile-auth i {
+.mobile-auth i {
     margin-right: 10px;
     font-size: 28px;
     color: rgb(112, 209, 47);
 }
 
-.mobile-menu .mobile-auth h4 {
+.mobile-auth h4 {
     font-size: 13px;
     font-weight: 100;
     color: rgb(112, 209, 47);
 }
 
-/* .mobile-menu {
-    background: #333;
-    padding: 10px 20px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-} */
+.mobile-menu {
+    position: absolute;
+    top: 4rem;
+    right: 20rem;
+    height: 100vh;
+    width: 320px;
+    background-color: #fff;
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2); /* Shadow on the left */
+    z-index: 9999;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+}
+
+.mobile-auth {
+    position: absolute;
+    top: 4rem;
+    right: 6rem;
+}
+
+.mobile-menu .people {
+    margin-right: 7px;
+}
+
+.mobile-menu .fa-solid {
+    font-size: 30px;
+    color: rgba(44, 48, 51, 0.878);
+}
+
 
 /**************************** Responsiveness ********************/
 @media screen and (max-width: 599px) {
@@ -292,5 +313,14 @@
         color: rgba(69, 86, 103, 0.775);
         margin-bottom: 30px;
         margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .mobile-menu {
+        display: none;
+    }
+    .mobile-auth {
+        display: none;
     }
 }

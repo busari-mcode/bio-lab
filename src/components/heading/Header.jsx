@@ -26,11 +26,11 @@ const Header = () => {
             <div className="menu-icon">
                 <i class="fa-solid fa-bars"></i>
             </div>
+            <div className="mobile-auth">
+                <i class="fa-solid fa-circle-user"></i>
+                <h4>Log In</h4>
+            </div>
             <div className="mobile-menu">
-                <div className="mobile-auth">
-                    <i class="fa-solid fa-circle-user"></i>
-                    <h4>Log In</h4>
-                </div>
                 <ul>
                     <li><Link to="/" className='page'>home</Link></li>
                     <li>
@@ -42,7 +42,7 @@ const Header = () => {
                     <li><Link to="/join" className='join'>join</Link></li>
                     <li><Link to="/animations" className='animations'>animations</Link></li>
                     <li><Link to="/teaching" className='teaching'>teaching (just the fun stuff)</Link></li>
-                    <li><Link to="/phys" className='phys'>University of Idaho - PHYS411</Link></li>
+                    <li><Link to="/phys" className='phys'>University of Idaho - PHY...</Link></li>
                     <li><Link to="/equipbook" className='equipbook'>equipment booking</Link></li>
                 </ul>
             </div>
