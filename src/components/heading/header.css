@@ -231,6 +231,9 @@
     align-items: center;
     cursor: pointer;
     margin-top: -40px;
+    position: absolute;
+    top: 4rem;
+    right: 6rem;
 }
 
 .mobile-auth i {
@@ -258,12 +261,6 @@
     transition: transform 0.3s ease;
 }
 
-.mobile-auth {
-    position: absolute;
-    top: 4rem;
-    right: 6rem;
-}
-
 .mobile-menu .people {
     margin-right: 7px;
 }
@@ -272,7 +269,6 @@
     font-size: 30px;
     color: rgba(44, 48, 51, 0.878);
 }
-
 
 /**************************** Responsiveness ********************/
 @media screen and (max-width: 599px) {
@@ -316,7 +312,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 993px) {
     .mobile-menu {
         display: none;
     }

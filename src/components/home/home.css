@@ -84,8 +84,27 @@
     .home .images {
         display: flex;
         flex-direction: column;
+        margin-bottom: 30px;
     }
-    
+    .images .cord img {
+        margin-left: 6rem;
+        width: 18rem;
+    }
+    .images .microfludics img {
+        margin-left: 9rem;
+    }
+    .images .target-sample img {
+        margin-left: 7.5rem;
+        width: 13rem;
+    }
+    .images .laser-spot img {
+        margin-left: 9rem;
+    }
+    .live-cells img {
+        margin-left: 5rem;
+        width: 300px;
+        height: 230px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -95,6 +114,34 @@
     .home .images {
         display: flex;
         flex-direction: column;
+        margin-bottom: 30px;
     }
-    
+    .images .cord img {
+        margin-left: 6rem;
+        width: 18rem;
+    }
+    .images .microfludics img {
+        margin-left: 9rem;
+    }
+    .images .target-sample img {
+        margin-left: 7.5rem;
+        width: 13rem;
+    }
+    .images .laser-spot img {
+        margin-left: 9rem;
+    }
+    .live-cells img {
+        margin-left: 5rem;
+        width: 300px;
+        height: 230px;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .mobile-menu {
+        display: none;
+    }
+    .mobile-auth {
+        display: none;
+    }
 }
