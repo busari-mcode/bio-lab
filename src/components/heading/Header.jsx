@@ -6,6 +6,11 @@ import facebook from '../../test_images/facebook_icon.png'
 
 const Header = () => {
     const [isLoggingIn, setIsLoggingIn] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
+    const toggleMenu = () => {
+        setMenuOpen(prev => !prev);
+    };
+
   return (
     <> 
         {isLoggingIn ? null : (
@@ -23,19 +28,21 @@ const Header = () => {
             </div>
 
             {/************ mobile menu ***********/}            
-            <div className="menu-icon">
+            <div className="menu-icon" onClick={toggleMenu}>
                 <i class="fa-solid fa-bars"></i>
             </div>
-            <div className="mobile-auth">
-                <i class="fa-solid fa-circle-user"></i>
-                <h4>Log In</h4>
-            </div>
+
+            {menuOpen && (
             <div className="mobile-menu">
+                <div className="mobile-auth" onClick={() => setIsLoggingIn(true)}>
+                    <i class="fa-solid fa-circle-user"></i>
+                    <h4>Log In</h4>
+                </div>
                 <ul>
                     <li><Link to="/" className='page'>home</Link></li>
                     <li>
                         <Link to="/people" className='people'>people</Link>
-                        <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark" onClick={toggleMenu}></i>
                     </li>
                     <li><Link to="/publications" className='publications'>publications</Link></li>
                     <li><Link to="/labpics" className='labpics'>lab pictures</Link></li>
@@ -46,6 +53,7 @@ const Header = () => {
                     <li><Link to="/equipbook" className='equipbook'>equipment booking</Link></li>
                 </ul>
             </div>
+            )}
         </section>
         ) }
 

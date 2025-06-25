@@ -5,6 +5,7 @@
     margin-top: 10px;
     box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.3);
     position: relative;
+    overflow-x: clip;
 }
 .header .auth {
     display: flex;
@@ -190,7 +191,7 @@
     text-align: left;
     cursor: pointer;
     margin-right: -25rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .mobile-menu ul li {
@@ -225,7 +226,7 @@
     color: rgba(149, 161, 174, 0.908);
 }
 
-.mobile-auth {
+.mobile-menu .mobile-auth {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,7 +239,7 @@
 
 .mobile-auth i {
     margin-right: 10px;
-    font-size: 28px;
+    font-size: 30px;
     color: rgb(112, 209, 47);
 }
 
@@ -250,24 +251,24 @@
 
 .mobile-menu {
     position: absolute;
-    top: 4rem;
+    top: 0rem;
     right: 20rem;
     height: 100vh;
     width: 320px;
     background-color: #fff;
-    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2); /* Shadow on the left */
+    box-shadow: -100px 0px 500px rgba(0, 0, 0, 0.2); /* Shadow on the left */
     z-index: 9999;
     transform: translateX(100%);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease-in-out;
 }
 
 .mobile-menu .people {
     margin-right: 7px;
 }
 
-.mobile-menu .fa-solid {
+.mobile-menu ul .fa-solid {
     font-size: 30px;
-    color: rgba(44, 48, 51, 0.878);
+    color: rgba(69, 86, 103, 0.775);
 }
 
 /**************************** Responsiveness ********************/
