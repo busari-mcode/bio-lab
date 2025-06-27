@@ -37,11 +37,6 @@ const People = () => {
     <>
     {/************************** team_section **************************/}
         <section className="team_section">
-            {/* {team.map((val) => {
-              <div className="img"> 
-                <img src={val.cover} alt=""/>
-              </div>
-            })} */}
             <div className="team">team</div>
             <div className="profiles">
             <div className="andreas">

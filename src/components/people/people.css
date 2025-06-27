@@ -286,3 +286,21 @@
 .melissa h3 {
     margin-left: -5rem;
 }
+
+
+/**************************** Responsiveness ********************/
+@media screen and (max-width: 599px) {
+    .profiles {
+        display: grid;
+        grid-template-columns: 50px 50px;
+        row-gap: 60px;
+        column-gap: 20rem;
+        margin-right: 20rem;
+        margin-top: 30px;
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+}

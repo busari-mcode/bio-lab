@@ -154,3 +154,9 @@
         margin-right: -9rem;
     }
 }
+
+@media screen and (min-width: 1500px) {
+    .home ul {
+        margin-right: -25rem;
+    }
+}
