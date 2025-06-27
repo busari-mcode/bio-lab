@@ -294,7 +294,32 @@
         display: grid;
         grid-template-columns: 50px 50px;
         row-gap: 60px;
-        column-gap: 20rem;
+        column-gap: 12rem;
+        margin-right: 20rem;
+        margin-top: 30px;
+        width: 35%;
+    }
+    .team_section {
+        display: flex;
+        flex-direction: column;
+    }
+    .team_section .team {
+        
+    }
+    .alumni_post_doc_profiles {
+        display: grid;
+        grid-template-columns: 50px 50px;
+        row-gap: 60px;
+        column-gap: 12rem;
+        margin-right: 20rem;
+        margin-top: 30px;
+        width: 35%;
+    }
+    .alumni_std_profiles {
+        display: grid;
+        grid-template-columns: 50px 50px;
+        row-gap: 60px;
+        column-gap: 12rem;
         margin-right: 20rem;
         margin-top: 30px;
         width: 35%;
