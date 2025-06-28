@@ -295,37 +295,103 @@
         grid-template-columns: 50px 50px;
         row-gap: 60px;
         column-gap: 12rem;
-        margin-right: 20rem;
+        margin-left: 3rem;
         margin-top: 30px;
-        width: 35%;
+        max-width: 35%;
     }
     .team_section {
         display: flex;
         flex-direction: column;
     }
     .team_section .team {
-        
+        margin: auto;   
+        margin-top: 2rem;
     }
+    .alumni_post_doc_section {
+        display: flex;
+        flex-direction: column;
+    }
+    .alumni_post_doc {
+        padding-left: 5rem;
+    }
+
     .alumni_post_doc_profiles {
         display: grid;
         grid-template-columns: 50px 50px;
         row-gap: 60px;
         column-gap: 12rem;
-        margin-right: 20rem;
+        margin-left: 18rem;
         margin-top: 30px;
         width: 35%;
+    }
+    .alumni_std_sec {
+        display: flex;
+        flex-direction: column;
+    }
+    .alumni_std_sec .alumni_std {
+        padding-left: 15rem;
     }
     .alumni_std_profiles {
         display: grid;
         grid-template-columns: 50px 50px;
         row-gap: 60px;
         column-gap: 12rem;
-        margin-right: 20rem;
+        margin-left: 7rem;
         margin-top: 30px;
         width: 35%;
     }
 }
 
 @media screen and (max-width: 992px) {
+    .profiles {
+        display: grid;
+        grid-template-columns: 50px 50px;
+        row-gap: 60px;
+        column-gap: 12rem;
+        margin-left: 3rem;
+        margin-top: 30px;
+        max-width: 35%;
+    }
+    .team_section {
+        display: flex;
+        flex-direction: column;
+    }
+    .team_section .team {
+        margin: auto;   
+        margin-top: 2rem;
+    }
+    .alumni_post_doc_section {
+        display: flex;
+        flex-direction: column;
+    }
+    .alumni_post_doc {
+        padding-left: 5rem;
+    }
 
+    .alumni_post_doc_profiles {
+        display: grid;
+        grid-template-columns: 50px 50px;
+        row-gap: 60px;
+        column-gap: 12rem;
+        margin-left: 18rem;
+        margin-top: 30px;
+        width: 35%;
+    }
+    .alumni_std_sec {
+        display: flex;
+        flex-direction: column;
+    }
+    .alumni_std_sec .alumni_std {
+        padding-left: 15rem;
+    }
+    .alumni_std_profiles {
+        display: grid;
+        grid-template-columns: 50px 50px;
+        row-gap: 60px;
+        column-gap: 12rem;
+        margin-left: 7rem;
+        margin-top: 30px;
+        width: 35%;
+    }
 }
+

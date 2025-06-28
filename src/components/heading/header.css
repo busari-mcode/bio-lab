@@ -6,6 +6,7 @@
     box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.3);
     position: relative;
     overflow-x: clip;
+    width: 100%;
 }
 .header .auth {
     display: flex;
