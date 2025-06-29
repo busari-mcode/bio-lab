@@ -6,7 +6,6 @@
     box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.3);
     position: relative;
     overflow-x: clip;
-    width: 100%;
 }
 .header .auth {
     display: flex;
@@ -284,6 +283,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 600px;
     }
     .menu-icon i {
         font-size: 30px;
@@ -291,7 +291,6 @@
         margin-bottom: 30px;
         margin-top: 30px;
     }
-
 }
 
 @media screen and (max-width: 992px) {
@@ -305,6 +304,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 65rem !important;
     }
     .menu-icon i {
         font-size: 30px;
@@ -320,5 +320,8 @@
     }
     .mobile-auth {
         display: none;
+    }
+    .header {
+        width: 90rem;
     }
 }

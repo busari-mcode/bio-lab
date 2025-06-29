@@ -292,27 +292,28 @@
 @media screen and (max-width: 599px) {
     .profiles {
         display: grid;
-        grid-template-columns: 50px 50px;
+        grid-template-columns: 50px 50px !important; 
         row-gap: 60px;
         column-gap: 12rem;
         margin-left: 3rem;
         margin-top: 30px;
         max-width: 35%;
+        padding-left: 7rem !important;
     }
     .team_section {
         display: flex;
         flex-direction: column;
     }
-    .team_section .team {
-        margin: auto;   
+    .team_section .team {  
         margin-top: 2rem;
+        margin-left: 22rem !important;
     }
     .alumni_post_doc_section {
         display: flex;
         flex-direction: column;
     }
     .alumni_post_doc {
-        padding-left: 5rem;
+        padding-left: 15rem !important;
     }
 
     .alumni_post_doc_profiles {
@@ -323,13 +324,14 @@
         margin-left: 18rem;
         margin-top: 30px;
         width: 35%;
+        padding-left: 7rem !important;
     }
     .alumni_std_sec {
         display: flex;
         flex-direction: column;
     }
     .alumni_std_sec .alumni_std {
-        padding-left: 15rem;
+        padding-left: 26rem !important;
     }
     .alumni_std_profiles {
         display: grid;
@@ -339,13 +341,14 @@
         margin-left: 7rem;
         margin-top: 30px;
         width: 35%;
+        padding-left: 7rem !important;
     }
 }
 
 @media screen and (max-width: 992px) {
     .profiles {
         display: grid;
-        grid-template-columns: 50px 50px;
+        grid-template-columns: 50px 50px 50px;
         row-gap: 60px;
         column-gap: 12rem;
         margin-left: 3rem;
