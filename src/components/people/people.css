@@ -335,7 +335,7 @@
     }
     .alumni_std_profiles {
         display: grid;
-        grid-template-columns: 50px 50px;
+        grid-template-columns: 50px 50px !important;
         row-gap: 60px;
         column-gap: 12rem;
         margin-left: 7rem;
@@ -389,7 +389,7 @@
     }
     .alumni_std_profiles {
         display: grid;
-        grid-template-columns: 50px 50px;
+        grid-template-columns: 50px 50px 50px;
         row-gap: 60px;
         column-gap: 12rem;
         margin-left: 7rem;

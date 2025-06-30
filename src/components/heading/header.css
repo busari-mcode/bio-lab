@@ -283,13 +283,19 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 600px;
+        width: 800px;
     }
     .menu-icon i {
         font-size: 30px;
         color: rgba(69, 86, 103, 0.775);
         margin-bottom: 30px;
         margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 799px) {
+    .header {
+        width: 61rem !important;
     }
 }
 
@@ -304,6 +310,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 800px;
     }
     .menu-icon i {
         font-size: 30px;
@@ -322,6 +329,6 @@
     }
     .header {
         width: 95rem !important;
-        
+
     }
 }
