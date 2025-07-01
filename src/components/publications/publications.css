@@ -128,3 +128,17 @@
 .patents_section li a span {
     text-decoration: underline;
 }
+
+/********************** Responsiveness ********************/
+
+@media screen and (max-width: 599px) {
+    .top_section .book {
+        margin-right: 15px;
+    }
+    .top_section .journals {
+        margin-right: 15px;
+    }
+    .top_section .patent {
+        margin-right: 15px;
+    }
+}
