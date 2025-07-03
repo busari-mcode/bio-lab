@@ -50,3 +50,81 @@
 .postdoc_pos p {
     font-size: 20px;
 }
+
+/*********************************** Responsiveness *********************************/
+
+@media screen and (max-width: 599px) {
+    .phd_pos_sect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .phd_pos_sect h4 {
+        margin-left: 0.5rem;
+        width: 200px;
+    }
+    .phd_pos_sect h5 {
+        width: 500px;
+    }
+    .phd_pos_sect p {
+        width: 500px;
+        margin-bottom: 30px;
+    }
+    .phd_pos_sect img {
+        margin-left: 13rem;
+    }
+    .postdoc_pos_sect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -5rem !important;
+    }
+    .postdoc_pos_sect h5 {
+        width: 500px;
+    }
+    .postdoc_pos_sect p {
+        width: 500px;
+        margin-bottom: 30px;
+    }
+    .postdoc_pos_sect img {
+        margin-left: 13rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .phd_pos_sect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .phd_pos_sect h4 {
+        margin-left: 0.5rem;
+        width: 200px;
+    }
+    .phd_pos_sect h5 {
+        width: 500px;
+    }
+    .phd_pos_sect p {
+        width: 500px;
+        margin-bottom: 30px;
+    }
+    .phd_pos_sect img {
+        margin-left: 13rem;
+    }
+    .postdoc_pos_sect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -5rem !important;
+    }
+    .postdoc_pos_sect h5 {
+        width: 500px;
+    }
+    .postdoc_pos_sect p {
+        width: 500px;
+        margin-bottom: 30px;
+    }
+    .postdoc_pos_sect img {
+        margin-left: 13rem;
+    }
+}

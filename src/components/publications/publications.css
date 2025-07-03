@@ -129,7 +129,7 @@
     text-decoration: underline;
 }
 
-/********************** Responsiveness ********************/
+/*********************************** Responsiveness *********************************/
 
 @media screen and (max-width: 599px) {
     .top_section .book {

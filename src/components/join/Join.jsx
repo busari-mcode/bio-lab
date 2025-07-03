@@ -20,7 +20,7 @@ const Join = () => {
                 <h5>Postdoctoral Positions</h5>
                 <p>We currently do not have openings. But if interested in our research, please get in <a href="mailto:andreasv@uidaho.edu" target='_blank'>touch</a> to discuss further.</p>
               </div>
-            <img src={river} alt="" />
+              <img src={river} alt="" />
             </div>
         </section>
     </>

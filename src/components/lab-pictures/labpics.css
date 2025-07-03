@@ -18,3 +18,35 @@
     width: 350px;
     height: 250px;
 }
+
+/*********************************** Responsiveness *********************************/
+
+@media screen and (max-width: 599px) {
+    .lab_pics {
+        display: grid;
+        grid-template-columns: 50px 50px; 
+        row-gap: 60px;
+        column-gap: 20rem;
+        margin-left: 3rem !important;
+        margin-top: 25px;
+        margin-bottom: 10rem;
+        width: 35%;
+        color: rgba(0, 0, 0, 0.488);
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .lab_pics {
+        display: grid;
+        grid-template-columns: 50px 50px; 
+        row-gap: 60px;
+        column-gap: 20rem;
+        margin-left: 5rem !important;
+        margin-top: 25px;
+        margin-bottom: 10rem;
+        width: 35%;
+        color: rgba(0, 0, 0, 0.488);
+        font-size: 15px;
+    }
+}
