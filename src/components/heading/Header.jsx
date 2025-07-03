@@ -39,18 +39,18 @@ const Header = () => {
                     <h4>Log In</h4>
                 </div>
                 <ul>
-                    <li><Link to="/" className='page'>home</Link></li>
+                    <li onClick={toggleMenu}><Link to="/" className='page'>home</Link></li>
                     <li>
-                        <Link to="/people" className='people'>people</Link>
+                        <Link to="/people" className='people'onClick={toggleMenu}>people</Link>
                         <i class="fa-solid fa-xmark" onClick={toggleMenu}></i>
                     </li>
-                    <li><Link to="/publications" className='publications'>publications</Link></li>
-                    <li><Link to="/labpics" className='labpics'>lab pictures</Link></li>
-                    <li><Link to="/join" className='join'>join</Link></li>
-                    <li><Link to="/animations" className='animations'>animations</Link></li>
-                    <li><Link to="/teaching" className='teaching'>teaching (just the fun stuff)</Link></li>
-                    <li><Link to="/phys" className='phys'>University of Idaho - PHY...</Link></li>
-                    <li><Link to="/equipbook" className='equipbook'>equipment booking</Link></li>
+                    <li onClick={toggleMenu}><Link to="/publications" className='publications'>publications</Link></li>
+                    <li onClick={toggleMenu}><Link to="/labpics" className='labpics'>lab pictures</Link></li>
+                    <li onClick={toggleMenu}><Link to="/join" className='join'>join</Link></li>
+                    <li onClick={toggleMenu}><Link to="/animations" className='animations'>animations</Link></li>
+                    <li onClick={toggleMenu}><Link to="/teaching" className='teaching'>teaching (just the fun stuff)</Link></li>
+                    <li onClick={toggleMenu}><Link to="/phys" className='phys'>University of Idaho - PHY...</Link></li>
+                    <li onClick={toggleMenu}><Link to="/equipbook" className='equipbook'>equipment booking</Link></li>
                 </ul>
             </div>
             )}
