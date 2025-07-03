@@ -133,12 +133,75 @@
 
 @media screen and (max-width: 599px) {
     .top_section .book {
-        margin-right: 15px;
+        margin-right: 50px;
     }
     .top_section .journals {
-        margin-right: 15px;
+        margin-right: 50px;
     }
-    .top_section .patent {
-        margin-right: 15px;
+    .book_chp li {
+        width: 40rem !important;
+    }
+    .journals_section li {
+        width: 40rem !important;
+    }
+    .patents_section li {
+        width: 40rem !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .top_section {
+        margin-left: 15rem;
+    }
+    .top_section .book {
+        margin-right: 50px;
+    }
+    .top_section .journals {
+        margin-right: 50px;
+    }
+    .book_chp li {
+        width: 40rem !important;
+    }
+    .journals_section li {
+        width: 40rem !important;
+    }
+    .patents_section li {
+        width: 40rem !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .top_section .book {
+        margin-right: 70px;
+    }
+    .top_section .journals {
+        margin-right: 70px;
+    }
+    .book_chp li {
+        width: 50rem;
+    }
+    .journals_section li {
+        width: 50rem;
+    }
+    .patents_section li {
+        width: 50rem;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .top_section .book {
+        margin-right: 70px;
+    }
+    .top_section .journals {
+        margin-right: 70px;
+    }
+    .book_chp li {
+        width: 50rem;
+    }
+    .journals_section li {
+        width: 50rem;
+    }
+    .patents_section li {
+        width: 50rem;
     }
 }
