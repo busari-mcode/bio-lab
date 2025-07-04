@@ -50,3 +50,68 @@
     margin-right: 100px;
     margin-top: 180px;
 }
+
+
+/*************************************** Responsiveness *******************************/
+@media screen and (max-width: 599px) {
+    .animatns_section .animatns {
+        width: 450px;
+        margin-right: 10rem;
+    }
+    .animatns_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .SIIL_assembly {
+        margin-bottom: 15px;
+    }
+    .SIIL_sensors {
+        margin-bottom: 15px;
+    }
+    .animatns_section .assembly {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -9rem;
+        margin-left: 15rem;
+    }
+    .animatns_section .sensors {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -7rem;
+        margin-left: 15rem;
+    }
+}
+@media screen and (max-width: 992px) {
+    .animatns_section .animatns {
+        width: 700px;
+        margin-right: 7rem;
+    }
+    .animatns_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .SIIL_assembly {
+        margin-bottom: 15px;
+    }
+    .SIIL_sensors {
+        margin-bottom: 15px;
+    }
+    .animatns_section .assembly {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -9rem;
+        margin-left: 10rem;
+    }
+    .animatns_section .sensors {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -7rem;
+        margin-left: 10rem;
+    }
+}

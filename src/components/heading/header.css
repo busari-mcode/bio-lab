@@ -271,7 +271,8 @@
     color: rgba(69, 86, 103, 0.775);
 }
 
-/**************************** Responsiveness ********************/
+
+/*************************************** Responsiveness *******************************/
 @media screen and (max-width: 599px) {
     .header .auth {
         display: none;
