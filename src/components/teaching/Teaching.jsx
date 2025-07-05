@@ -10,7 +10,7 @@ import pics6 from '../../test_images/Picture6.avif'
 const Teaching = () => {
   return (
     <>
-        <section className="teaching">
+        <section className="teach">
             <h3>some fun drawings (from homework and exam papers):</h3>
             <div className="drawings">
               <img src={pics1} alt="" />

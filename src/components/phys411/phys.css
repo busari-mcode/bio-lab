@@ -20,3 +20,37 @@
     font-size: 100px;
     color: #000;
 }
+
+/*********************************** Responsiveness *********************************/
+
+@media screen and (max-width: 599px) {
+    .phys411 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .instruction {
+        width: 600px;
+        margin-left: 20rem;
+    }
+    .icon {
+        margin-top: 30px;
+        margin-left: 15rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .phys411 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .instruction {
+        width: 600px;
+        margin-left: 12rem;
+    }
+    .icon {
+        margin-top: 30px;
+        margin-left: 8rem;
+    }
+}

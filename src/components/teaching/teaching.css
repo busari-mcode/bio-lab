@@ -1,10 +1,10 @@
-.teaching h3 {
+.teach h3 {
     margin-top: 25px;
     margin-left: 15rem;
     color: rgba(69, 86, 103, 0.775);
 }
 
-.teaching h3:hover {
+.teach h3:hover {
     color: rgba(69, 86, 103, 0.775);
 }
 
@@ -53,4 +53,112 @@
     height: 580px;
     margin-top: 20rem;
     margin-left: 25rem;
+}
+
+/*************************************** Responsiveness *******************************/
+@media screen and (max-width: 599px) {
+    .teach {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .teach h3 {
+        width: 600px;
+    }
+    .drawings {
+        margin-left: 33rem;
+        position: relative;
+        margin-bottom: 10rem;
+    }
+    .drawings img:nth-child(1) {
+        width: 380px;
+        height: 90px;
+        margin-top: 40px;
+        margin-left: -7rem;
+    }
+    .drawings img:nth-child(2) {
+        margin-top: 10rem;
+        margin-left: -20px;
+    }
+    .drawings img:nth-child(3) {
+        width: 420px;
+        height: 210px;
+        margin-top: 5rem !important;
+    }
+    .drawings img:nth-child(4) {
+        width: 470px;
+        height: 230px;
+        margin-bottom: 50rem;
+        margin-left: 50px;
+    }
+    .drawings img:nth-child(5) {
+        width: 470px;
+        height: 210px;
+        margin-left: -50rem;
+        margin-bottom: 40rem;
+    }
+    .drawings img:nth-child(6) {
+        width: 650px;
+        height: 580px;
+        margin-top: -40rem;
+        margin-left: -13rem;
+    }
+}
+@media screen and (max-width: 992px) {
+    .teach {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .teach h3 {
+        width: 600px;
+        margin-left: 50px;
+    }
+    .drawings {
+        margin-left: 10rem;
+        position: relative;
+        margin-bottom: 10rem;
+    }
+    .drawings img:nth-child(1) {
+        width: 380px;
+        height: 90px;
+        margin-top: 40px;
+        margin-left: -7rem;
+    }
+    .drawings img:nth-child(2) {
+        margin-top: 10rem;
+        margin-left: -20px;
+    }
+    .drawings img:nth-child(3) {
+        width: 420px;
+        height: 210px;
+        margin-top: 5rem !important;
+    }
+    .drawings img:nth-child(4) {
+        width: 470px;
+        height: 230px;
+        margin-bottom: 60rem;
+        margin-left: 50px;
+    }
+    .drawings img:nth-child(5) {
+        width: 470px;
+        height: 210px;
+        margin-left: -40rem;
+        margin-bottom: 40rem;
+        margin-top: 20rem;
+    }
+    .drawings img:nth-child(6) {
+        width: 650px;
+        height: 580px;
+        margin-top: -40rem;
+        margin-left: -5rem;
+    }
+}
+@media screen and (min-width: 993px) {
+    .drawings img:nth-child(5) {
+        width: 550px;
+        height: 380px;
+        margin-top: -40rem;
+        margin-left: -2rem;
+    }
 }
